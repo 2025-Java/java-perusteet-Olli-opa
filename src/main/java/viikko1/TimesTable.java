@@ -2,7 +2,10 @@ package viikko1;
 
 public class TimesTable {
     public static String table(int n) {
-        // TODO
-        return null;
+        String result = "";
+        for(int i = 1; i <= 10; i++) {
+            result += n + " x " + i + " = " + (i * n) + "\n";
+        }   
+        return result;
     }
 }
