@@ -1,5 +1,5 @@
 package viikko1;
-
+//kommentti
 public class ArrayStats {
     public static double average(int[] arr) {
         if (arr.length == 0) return 0.0;
